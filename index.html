@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="query.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+    <form class="" action="/insert" method="post">
+     name:<input type="text" name="name" value="">
+     <input type="submit" name="login" value="submit">
+    </form>
+    <h2>search record for</h2>
+    <div class="">
+        roll : <input id='roll' type="text" name="roll" value="">
+        <button type="button" onclick="query()" name="button">fetch</button>
+        <h2>details you asked for</h2>
+      <div id='result' class="">
+      </div>
+    </div>
+  </body>
+</html>
